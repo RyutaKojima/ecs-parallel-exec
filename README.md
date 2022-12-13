@@ -6,8 +6,8 @@ npm install
 
 ※ aws-cliがインストール、セットアップされている必要があります
 
-node main.js --help
-node maiin.js <clusterName> <serviceName> <command>
+node src/main.js --help
+node src/main.js <clusterName> <serviceName> <command>
 
 指定したECSサービスの全てのタスクに対してコマンドを実行します。
 

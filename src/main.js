@@ -3,7 +3,7 @@ import { program } from "commander";
 import {ecsExec, getTaskArns} from "./services/ecs-utils.js";
 
 program
-    .name('node maiin.js')
+    .name('node main.js')
     .description('AWS ECS の指定サービスの全てのタスクに対してコマンドを実行します')
     .version('0.0.1')
     .argument('<clusterName>', 'ECS cluster name')

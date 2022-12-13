@@ -1,3 +1,7 @@
+# Installation
+
+npm install
+
 # Usage
 
 ※ aws-cliがインストール、セットアップされている必要があります
